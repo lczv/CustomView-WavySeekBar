@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.study.lczv.customviewwave.WavySeekBar
+        android:id="@+id/wavySeekBar"
+        android:layout_width="match_parent"
+        app:wave_color="#3b608c"
+        app:button_color="#f29062"
+        app:max_value="10"
+        app:wave_amplitude="30"
+        app:wave_length="20"
+        app:tickness="20"
+        app:button_radius="32"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/textViewValue"
+        android:gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"/>
+
+</LinearLayout>

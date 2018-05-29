@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WavySeekBar">
+        <attr name="wave_color" format="color"/>
+        <attr name="button_color" format="color"/>
+        <attr name="tickness" format="float"/>
+        <attr name="max_value" format="integer"/>
+        <attr name="button_radius" format="float"/>
+        <attr name="wave_amplitude" format="float"/>
+        <attr name="wave_length" format="float"/>
+    </declare-styleable>
+</resources>
